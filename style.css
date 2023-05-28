@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  min-width: 300px;
+  max-width: 700px;
+  font-family: "inter", "sans-sarif";
+}
+
+select:hover,
+select:focus {
+  outline: none;
+}
+
+.color-picker-nav {
+  display: flex;
+  padding: 2em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.color-picker-nav > button {
+  height: 3em;
+  width: 8em;
+  font-size: 0.75rem;
+  background-color: #3d4b60;
+  color: white;
+  border-radius: 0.6em;
+  border: none;
+  cursor: pointer;
+  font-family: "inter", "sans-sarif";
+}
+
+.color-picker-nav > input {
+  height: 3em;
+  width: 7em;
+  cursor: pointer;
+}
+
+.color-picker-nav > select {
+  width: 19.5em;
+  height: 2.625em;
+  background-color: #1f2937;
+  color: #d5d4d8;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "inter", "sans-sarif";
+}
+
+.colors-view-box {
+  display: flex;
+  gap: 0.5em;
+
+  overflow: hidden;
+}
+
+.color-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.color {
+  height: 28em;
+  width: 20%;
+  
+}
+
+.color-num:hover{
+background-color: #fff7f749;
+cursor: pointer;
+}
+.color-num {
+  padding: 0.5em;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
